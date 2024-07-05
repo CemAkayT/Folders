@@ -1,0 +1,10 @@
+# variabler er huskesedler
+
+- opbevarer data
+- har navne
+- er typeløs
+
+# i bash har variabler ingen datatype
+# hvis teksten har et mellemrum, skal den i anfølgelsestegn
+# uskriv variablens værdi sådan her $variabelnavn
+nøgle = værdi 

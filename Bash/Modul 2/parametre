@@ -1,0 +1,19 @@
+#man kan vælge at navngive sin fil med et nyt navn hver 
+gang således:
+
+filename=$1-$(date +'%Y-%m-%d').tgz
+
+Så skal du køre kommandoen: ./filnavn.sh + hvad du vil 
+kalde din fil.
+
+----------
+
+F.eks kan man angive hvilke typer filer der skal tages 
+backup af istedet for alle i en mappe.
+
+tar cfvz "$backup_destination/$filename" "$source" $2
+$2 er en wildcard, hvor du angiver filtypen således:
+
+dekomprimer filen: tar xfvz filnavn.tgz
+
+

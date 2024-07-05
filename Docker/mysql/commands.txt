@@ -1,0 +1,21 @@
+# Pull image from https://hub.docker.com/_/mysql
+docker pull mysql
+docker run --name cems-mysql -e MYSQL_ROOT_PASSWORD=Kbgzv8h# -d mysql:latest
+docker exec -it cems-mysql mysql -u root -p 
+type your password 
+
+Exit mysql: 
+exit | ctrl+d
+
+docker stop cems-mysql
+docker start cems-mysql
+docker exec -it <container_id or container_name> mysql -u root -p 
+type your password 
+Kbgzv8h#
+================================================
+
+Copy sql file into mysql docker container:
+docker cp /Users/cemakay/Data/employee.sql cems-mysql:/employee.sql
+Docker start c2e
+docker exec -it c2e mysql -u root -p
+

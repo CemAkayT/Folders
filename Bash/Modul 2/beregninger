@@ -1,0 +1,8 @@
+#!/bin/bash
+
+tal=5
+
+# beregninger skal i dobbel parantes
+echo $((tal*2))
+
+

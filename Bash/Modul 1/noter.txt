@@ -1,0 +1,11 @@
+Kør i test miljø:
+
+Pull ubuntu image fra Dockerhub for at køre det i et testmiljø
+
+Installer en teksteditor, f.eks. Nano
+
+Opret en fil der ender på .sh, f.eks. myscript.sh
+
+Gør din scriptfil eksekverbar ved at køre kommandoen: chmod +x myscript.sh
+
+Kør scriptet ved at skrive ./myscript.sh i terminalen og tryk på Enter.

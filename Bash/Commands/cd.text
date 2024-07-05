@@ -1,0 +1,23 @@
+## CD
+only 'cd'  = home directory
+'/' = root directory
+
+# We can append to a file using 'cat >> filename and press enter and write what you want and finish with ctrl D
+
+# And only 1 > if you want to overwrite what is in the file
+
+
+# we can redirect multiple files to another file
+Like this cat file1 file 2 > file3
+# Create directories with subdirectories:
+mkdir -p A/B/{b1,b2}
+# Delete directories:
+rm -vr dirname
+
+
+#List all content and redirect it somewhere:
+ls -l > /Users/cemakay/Bash/apps.txt
+
+#Less alice.txt ... tryk på pil ned eller space for at komme videre, eller 'b' for at gå tilbage en side. Shift +g = helt ned bil bunden, 1+g helt op igen
+
+#cat -b filename = numerer nonblank lines

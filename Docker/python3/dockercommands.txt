@@ -1,0 +1,12 @@
+$ docker build -t myapp .
+$ docker run -it -p 80:5000 --name my-app-container myapp
+
+
+
+# Run a bash shell in the container
+$ docker exec -it <container_id_or_name> /bin/bash
+
+
+
+#Rebuild image if there are updates to the code
+$ docker build -t my app .
